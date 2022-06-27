@@ -6,6 +6,7 @@ import copyContentStyle from "./utils/plugins/copy-content-style";
 
 const root = resolve(__dirname, "src");
 const pagesDir = resolve(root, "pages");
+const styleDir = resolve(root, "style");
 const assetsDir = resolve(root, "assets");
 const outDir = resolve(__dirname, "dist");
 const publicDir = resolve(__dirname, "public");
@@ -16,6 +17,7 @@ export default defineConfig({
       "@src": root,
       "@assets": assetsDir,
       "@pages": pagesDir,
+      "@style": styleDir,
     },
   },
   plugins: [react(), makeManifest(), copyContentStyle()],
@@ -24,12 +26,12 @@ export default defineConfig({
     outDir,
     rollupOptions: {
       input: {
-        devtools: resolve(pagesDir, "devtools", "index.html"),
-        panel: resolve(pagesDir, "panel", "index.html"),
+        // devtools: resolve(pagesDir, "devtools", "index.html"),
+        // panel: resolve(pagesDir, "panel", "index.html"),
         content: resolve(pagesDir, "content", "index.ts"),
         background: resolve(pagesDir, "background", "index.ts"),
         popup: resolve(pagesDir, "popup", "index.html"),
-        newtab: resolve(pagesDir, "newtab", "index.html"),
+        // newtab: resolve(pagesDir, "newtab", "index.html"),
         options: resolve(pagesDir, "options", "index.html"),
       },
       output: {

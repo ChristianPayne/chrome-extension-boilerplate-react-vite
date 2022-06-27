@@ -17,3 +17,6 @@ public/manifest.json
 
 #copied contentStyle
 public/contentStyle.css
+
+# Tailwind generated file.
+tailwind.css
