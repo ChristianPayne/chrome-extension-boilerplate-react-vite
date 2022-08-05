@@ -32,6 +32,8 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 ## Features <a name="features"></a>
 - [React 18](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Vite](https://vitejs.dev/)
 - [SASS](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
@@ -71,6 +73,14 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 - [Rollup](https://rollupjs.org/guide/en/)
 - [Rollup-plugin-chrome-extension](https://www.extend-chrome.dev/rollup-plugin)
 
+
+
+---
+## Thanks To
+
+[Jetbrains Open Source Support](https://jb.gg/OpenSourceSupport)
+
+<img width="200" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo.">
 
 
 ---

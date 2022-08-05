@@ -1,6 +1,9 @@
 {
+  "env": {
+    "__DEV__": "true"
+  },
   "watch": ["src", "utils", "vite.config.ts"],
-  "ext": "tsx,css,html,ts",
+  "ext": "tsx,css,scss,html,ts",
   "ignore": ["src/**/*.spec.ts"],
   "exec": "npx tailwindcss -i src/style/app.css -o src/style/tailwind.css && node_modules/.bin/vite build"
 }
